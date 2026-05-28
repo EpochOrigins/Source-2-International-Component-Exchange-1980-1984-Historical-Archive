@@ -20,5 +20,6 @@ Fred Richey, Director of Information Systems; Fred occupied a highly critical op
 ### References & Archival Sources
 
 https://archive.org/embed/source-2-international-marketing-brochure
-
 https://archive.org/embed/source-2-article-from-computer-world
+https://archive.org/embed/source-2-article-from-business-week
+https://archive.org/embed/source-2-article-from-times-tribune
