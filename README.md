@@ -14,5 +14,7 @@ Kirk Jensen, Vice President; Kirk served as principal founder and Vice President
 Fred Richey, Director of Information Systems; Fred occupied a highly critical operational role at Source 2 International, distinct from the sales teams: Richey was the technologist responsible for designing and maintaining the databases and information systems that tracked global electronic components. The center utilized an IBM compatible Magnuson M80/32 Computer running IBM's OS/VS1 operating system. It hosted an IDMS database and IBM's CICS user interface system, which delivered real-time inventories for the exchange.
 
 ### References & Archival Sources
+
 https://archive.org/embed/source-2-international-marketing-brochure
+
 https://archive.org/embed/source-2-article-from-computer-world
