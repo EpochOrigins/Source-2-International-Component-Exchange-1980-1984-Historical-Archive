@@ -217,9 +217,9 @@
             <h2>Technical Infrastructure & Specifications</h2>
             <p>To power an online marketplace without localized warehouses, the data center built a custom, real-time mainframe pipeline optimized for sub-second database lookups:</p>
             <ul>
-                <li><strong>Hardware Platform:</strong> An IBM-compatible <strong>Magnuson M80/32 mainframe system</strong> The Mainframe Core (Magnuson M80):** Source 2 deployed a San Jose-built Magnuson M80 series plug-compatible mainframe computer. The M80 natively executed IBM operating systems and software at a fraction of the hardware cost, serving as the central computing engine for the entire national exchange.</li>
-                <li><strong>IDMS Database Optimization:</strong> Configured with specialized <em>IDMS Microcode Assist</em> circuitry to process complex multi-table search routines directly inside the processor firmware, optimizing indexing performance by 10 to 15 percent.</li>
-                <li><strong>Operating Environment:</strong> Powered via IBM's <strong>OS/VS1</strong> system backbone to coordinate multi-user terminal queries.</li>
+                <li><strong>Hardware Platform:</strong> An IBM-compatible <strong>Magnuson M80/32 mainframe system</strong> The M80 natively executed IBM operating systems and software at a fraction of the hardware cost, serving as the central computing engine for the entire national exchange.</li>
+                <li><strong>IDMS Database Optimization:</strong> Configured with specialized <em>IDMS Microcode Assist</em> circuitry to process complex multi-table search routines directly inside the processor firmware, optimizing indexing performance.</li>
+                <li><strong>Operating Environment:</strong> Powered via IBM's <strong>OS/VS1</strong> Operating systems backbone to enable the M80.</li>
                 <li><strong>Broker Terminal Interface:</strong> Managed via an active <strong>IBM CICS</strong> front-end network layer, displaying live, validated stock availability numbers instantly to brokers on the trading floor.</li>
             </ul>
         </section>
@@ -248,7 +248,102 @@
                 <a href="https://archive.org/details/source-2-computer-center/mode/2up?ui=embed&wrapper=false" class="btn" target="_blank" rel="noopener">Storage Technology ad</a>
             </div>
         </section>
+#
+<div class="mb-8 pb-6 border-b border-github-border">
+                <p class="text-lg leading-relaxed text-github-heading font-light">
+                    To support a fast-moving trading environment, Fred Richey engineered a highly cost-conscious, high-performance hardware stack that bypassed expensive IBM pricing models while maintaining <span class="text-github-accent font-semibold">"big iron"</span> processing power.
+                </p>
+            </div>
 
+            <!-- Section 3: Hardware Stack -->
+            <div class="space-y-6">
+                <div class="flex items-center space-x-2">
+                    <h2 class="text-2xl font-semibold text-github-heading tracking-tight">3. Custom Hardware Architecture</h2>
+                </div>
+
+                <!-- Grid Layout for Hardware Components -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    
+                    <!-- Component 1 -->
+                    <div class="bg-github-code p-5 rounded-lg border border-github-border flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center space-x-2 mb-2">
+                                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                                <h3 class="text-md font-bold text-github-heading font-mono">The Mainframe Core</h3>
+                            </div>
+                            <p class="text-sm text-github-muted leading-relaxed">
+                                <strong class="text-github-text">Magnuson M80:</strong> Source 2 deployed a San Jose-built Magnuson M80 series plug-compatible mainframe computer. The M80 natively executed IBM operating systems and software at a fraction of the hardware cost, serving as the central computing engine for the entire national exchange.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Component 2 -->
+                    <div class="bg-github-code p-5 rounded-lg border border-github-border flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center space-x-2 mb-2">
+                                <span class="w-2 h-2 rounded-full bg-sky-500"></span>
+                                <h3 class="text-md font-bold text-github-heading font-mono">The Telecommunications Link</h3>
+                            </div>
+                            <p class="text-sm text-github-muted leading-relaxed">
+                                <strong class="text-github-text">Paradyne Channel Extenders:</strong> Mainframe architectures of the era suffered a strict ~200-foot physical limitation for "bus and tag" data cables. Richey bypassed this bottleneck by deploying Paradyne PIX (Parallel Interface Extender) hardware. This system seamlessly serialized data over dedicated telecom circuits, "tricking" the central Magnuson mainframe into treating remote locations as if they were sitting directly inside the Santa Clara clean room.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Component 3 -->
+                    <div class="bg-github-code p-5 rounded-lg border border-github-border flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center space-x-2 mb-2">
+                                <span class="w-2 h-2 rounded-full bg-purple-500"></span>
+                                <h3 class="text-md font-bold text-github-heading font-mono">The Endpoints</h3>
+                            </div>
+                            <p class="text-sm text-github-muted leading-relaxed">
+                                <strong class="text-github-text">ITT Courier 270 Terminals:</strong> Brokers interacted with the exchange via ITT Courier 270 series block-mode "green screen" terminals (IBM 3270-compatible). Utilizing ITT’s Virtual Terminal Line Controller (VTLC), the firm rapidly added broker desks across its offices at full local-channel speeds without requiring expensive IBM front-end communications processors.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Component 4 -->
+                    <div class="bg-github-code p-5 rounded-lg border border-github-border flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center space-x-2 mb-2">
+                                <span class="w-2 h-2 rounded-full bg-amber-500"></span>
+                                <h3 class="text-md font-bold text-github-heading font-mono">National Scale</h3>
+                            </div>
+                            <p class="text-sm text-github-muted leading-relaxed">
+                                This architecture successfully bound the Santa Clara headquarters to <span class="text-github-accent font-semibold">four remote sales offices</span> positioned across major American technology corridors, creating a synchronized, real-time private data cloud.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Divider Line -->
+            <hr class="my-10 border-github-border">
+
+            <!-- Section 4: Software Stack -->
+            <div class="space-y-4">
+                <h2 class="text-2xl font-semibold text-github-heading tracking-tight">4. Enterprise Software Stack</h2>
+                <p class="text-github-muted leading-relaxed">
+                    The software environment was designed for high-concurrency, mission-critical transaction speeds, utilizing the exact platforms favored by Wall Street banks and major airlines:
+                </p>
+
+                <!-- Software Item block style -->
+                <div class="bg-github-code p-5 rounded-lg border border-github-border mt-4">
+                    <div class="flex items-center space-x-2 mb-2">
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-github-border text-github-accent">DBMS</span>
+                        <h3 class="text-md font-bold text-github-heading font-mono">IDMS (Integrated Database Management System)</h3>
+                    </div>
+                    <p class="text-sm text-github-muted leading-relaxed">
+                        Cullinet's network-model database engine was leveraged for its blistering data-pointer speeds. It allowed lightning-fast data retrieval and relationship mapping necessary for active high-frequency database interactions.
+                    </p>
+                </div>
+            </div>
+
+        </article>
+
+#
     </div>
 
     <footer>
