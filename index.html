@@ -223,7 +223,27 @@
                 <li><strong>Broker Terminal Interface:</strong> Managed via an active <strong>IBM CICS</strong> front-end network layer, displaying live, validated stock availability numbers instantly to brokers on the trading floor.</li>
             </ul>
         </section>
+#
+        <h2>Hardware Stack</h2>
+<p>To support a fast-moving trading environment, Fred Richey engineered a highly cost-conscious, high-performance hardware stack that bypassed expensive IBM pricing models while maintaining "big iron" processing power.</p>
 
+<ul>
+  <li><strong>The Mainframe Core (Magnuson M80):</strong> Source 2 deployed a San Jose-built Magnuson M80 series plug-compatible mainframe computer. The M80 natively executed IBM operating systems and software at a fraction of the hardware cost, serving as the central computing engine for the entire national exchange.</li>
+  <li><strong>The Telecommunications Link (Paradyne Channel Extenders):</strong> Mainframe architectures of the era suffered physical limitation for "bus and tag" data cables. Richey bypassed this bottleneck by deploying Paradyne PIX (Parallel Interface Extender) hardware. This system seamlessly serialized data over dedicated telecom circuits, "tricking" the mainframe into treating remote locations as if they were sitting directly inside the data center.</li>
+  <li><strong>The Endpoints (ITT Courier 270 Terminals):</strong> Brokers interacted with the exchange via ITT Courier 270 series block-mode "green screen" terminals (IBM 3270-compatible). The firm rapidly added broker desks across its offices at full local-channel speeds without requiring expensive IBM front-end communications processors.</li>
+  <li><strong>National Scale:</strong> This architecture successfully bound the Santa Clara headquarters to several remote sales offices positioned across major American technology corridors, creating a synchronized, real-time private data cloud.</li>
+</ul>
+
+<h2>Software Stack</h2>
+<p>The software environment was designed for high-concurrency, mission-critical transaction speeds, utilizing the exact platforms favored by Wall Street banks and major airlines:</p>
+
+<ul>
+  <li><strong>IDMS (Integrated Database Management System):</strong> Cullinet's network-model database engine was leveraged for its blistering data-pointer speeds. It allowed the system to instantly map highly complex component relationships (cross-referencing part numbers, speed grades, packaging types, and varying OEM locations) far faster than early relational databases could.</li>
+  <li><strong>CICS (Customer Information Control System):</strong> This powerful transaction monitor managed the incoming data traffic from all four remote offices. CICS ensured that if multiple brokers across America attempted to claim or trade the same batch of memory chips simultaneously.</li>
+  <li><strong>COBOL:</strong> The core business logic, financial calculations, and file processing routines were written entirely in COBOL, providing a rock-solid, highly reliable framework for the fast-paced trading floor.</li>
+</ul>
+#
+        
         <!-- Data Center Photograph Section -->
 <div style="margin: 2rem 0; text-align: center; background: #ffffff; padding: 1rem; border: 1px solid #e9ecef; border-radius: 6px;">
     
